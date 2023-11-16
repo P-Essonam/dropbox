@@ -9,14 +9,14 @@
 </head>
 <body class="min-h-screen bg-slate-950 dark:bg-black dark:text-white text-black text-lg">
     <header class="bg-white">
-        <div class="flex justify-start">
+        <div class="flex xl:justify-start max-xl:justify-between">
 
             <div class="flex items-center justify-start">
                 <img src="./img/th.jfif" alt="logo" loading="lazy" class="w-16 h-14">
-                <h1 class="text-2xl font-bold">Dropbox</h1>
+                <h1 class="text-2xl font-bold max-sm:hidden">Dropbox</h1>
             </div>
 
-            <div class="flex justify-between mx-4 flex-grow">
+            <div class="flex justify-between mx-4 flex-grow max-xl:hidden max-xl:text-sm">
 
                 <div class="flex items-center justify-between space-x-6 text-base">
 
@@ -159,19 +159,23 @@
 
             </div>
 
-            <div class="flex items-center justify-end space-x-6 text-base">
+            <div class="flex items-center justify-end space-x-6 text-base max-md:text-lg max-md:space-x-3">
 
-                <button class="hover:bg-slate-500 h-full px-2">
+                <button class="hover:bg-slate-500 h-full px-2 max-md:px-1 ">
                     S'insrire
                 </button>
 
-                <button class="hover:bg-slate-500 h-full px-2">
+                <button class="hover:bg-slate-500 h-full px-2 max-md:px-1">
                     Connecter
                 </button>
 
-                <button class="bg-blue-700 h-full text-white px-4 hsm">
+                <button class="bg-blue-700 h-full text-white px-4 hsm max-md:hidden">
                     Commencer &nbsp;
                     <i class="fa-solid fa-arrow-right mxn"></i>
+                </button>
+
+                <button class="xl:hidden pl-2 pr-4">
+                    <i class="fa-solid fa-bars"></i>
                 </button>
 
             </div>
