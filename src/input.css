@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .item-min-width{
+        min-width:  calc(35vw);
+    }
+
+    .item-min-width1{
+        min-width:  calc(17vw);
+    }
+
+    .item-min-width2{
+        min-width:  calc(34vw - 2rem);
+    }
+
+    .dropdown:hover .content{
+        display: flex;
+    }
+
+    .dropdown:hover {
+        background-color: #ffe4c4;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    
+    .dropdown:hover .content{
+        display: flex;
+    }
+
+        /*  */
+
+
+    .item-min-width2{
+        min-width:  calc(30vw - 2rem);
+    }
+    
+    .item-min-width3{
+        min-width:  calc(17vw);
+    }
+
+    .dropdown1:hover .content1{
+        display: flex;
+    }
+
+    .dropdown1:hover {
+        background-color: #ffe4c4;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    
+    .dropdown1:hover .content1{
+        display: flex;
+    }
+
+    /*  */
+
+    .hsm:hover .mxn{
+        transform: translateX(0.25rem);
+    }
+}
